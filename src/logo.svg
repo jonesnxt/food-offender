@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="105px" height="114px" viewBox="0 0 105 114" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>Let's Eat Logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="64.4460836%" y2="52.3945298%" id="linearGradient-1">
+            <stop stop-color="#1A1E29" offset="0%"></stop>
+            <stop stop-color="#E28413" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="93.1735763%" id="linearGradient-2">
+            <stop stop-color="#1A1E29" offset="0%"></stop>
+            <stop stop-color="#E28413" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Food-Offender" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="After-Submission-v3" transform="translate(-145.000000, -191.000000)">
+            <g id="Share-Section" transform="translate(53.000000, 135.000000)">
+                <g id="Let's-Eat-Logo" transform="translate(90.000000, 61.000000)">
+                    <g id="Page-1" transform="translate(53.500000, 40.500000) scale(-1, -1) rotate(180.000000) translate(-53.500000, -40.500000) translate(10.000000, 0.000000)">
+                        <polygon id="Fill-1" fill="url(#linearGradient-1)" points="32.079389 18.8055744 18.4316107 42.5300396 47.636624 42.5300396 72 81 82.5114727 55.8615188 61.0071337 18.8055744"></polygon>
+                        <polyline id="Stroke-2" stroke="url(#linearGradient-2)" stroke-width="10" stroke-linecap="square" points="67 75.9975582 21.9741797 75.9975582 0.162380482 38.0446001 21.9741797 0.0916419396 65.6285856 0.0916419396 86.9166552 37.1475864"></polyline>
+                    </g>
+                    <text id="Let’s-Eat" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="28" font-weight="300" letter-spacing="0.519999981" fill="#6B717E">
+                        <tspan x="0.0560000858" y="108">Let’s Eat</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

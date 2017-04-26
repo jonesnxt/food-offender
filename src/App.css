@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600|Pacifico');
+
+body, html { 
+    height: 100%;
+    background-color: #0A0E19;
+    overflow: hidden;
+}
+
+.App {
+    font-family: 'Open Sans', sans-serif;
+    height:100%;
+}
+
+input, select {
+    background-color:#fff;
+    font-size:1rem;
+    height:30px;
+    margin: 8px 0;
+    border:none;
+    width:100%;
+}
+
+.body {
+    max-width:1200px;
+    margin:0 auto;
+    min-height:450px;
+    overflow-y:auto;
+}
+
+.topbar {
+    padding:16px;
+    padding-left:24px;
+    color:#fff;
+    background-color:#1A1E29;
+    position:relative;
+}
+
+.topbar img {
+    width:100px;
+    height:100px;
+    position:absolute;
+    top:16px;
+    right:16px;
+}
+
+.topbar h1 {
+    font-family: 'Pacifico', cursive;
+    font-size:2.5rem;
+    font-weight:400;
+    margin:0;
+}
+
+.topbar h2, .add h2
+{
+    margin:0;
+}
+
+.add {
+    background-color:#323642;
+    width:300px;
+    padding: 16px 50px;
+    color:#FFF;
+    float:left;
+    height:700px;
+    position:relative;
+}
+
+.add h3, .add p {
+    margin:3px 5px;
+}
+
+.form-group {
+    padding:10px 0;
+}
+
+.add button {
+    width: 100%;
+    background-color:#1A1E29;
+    color:#FFF;
+    font-size:1.4rem;
+    font-weight:bold;
+    height:44px;
+    border:none;
+    outline:none;
+    cursor:pointer;
+    margin:8px 0;
+}
+
+.add button:hover {
+    background-color:#0A0E19;
+}
+
+.add button:focus {
+    background-color:000009;
+}
+
+.halves {
+    float:left;
+    padding:0 10px;
+    width:calc(50% - 20px);
+    padding-bottom:30px;
+}
+
+.halves input {
+    padding:0 10px;
+    width:calc(100% - 10px);
+}
+
+.add select {
+    margin: 10px;
+    width:calc(100% - 10px);
+}
+
+.list {
+    float:left;
+    background: linear-gradient(145.24deg, #3B435A 0%, #1B1E2B 100%);
+    color:#fff;
+    width:calc(100% - 440px);
+    height:700px;
+    padding:20px;
+}
+
+.list table {
+    width:100%;
+}
+
+.list thead {
+    display:inline-block;
+    width:100%;
+    position:relative;
+}
+
+.list tr {
+    display:block;
+    width:100%;
+}
+
+.list tbody {
+    display:inline-block;
+    width:100%;
+    max-height:430px;
+    overflow-y:auto;
+}
+
+.list th {
+    display:inline-block;
+    padding: 10px;
+    font-size:1.2rem;
+    color: #989CA7;
+    width:20%;
+    text-align:left;
+    font-weight:bold;
+}
+
+.list td {
+    display:inline-block;
+    padding:10px;
+    font-size:1.1rem;
+    width:20%;
+    height:40px;
+}
+
+.list img {
+    height:40px;
+    width:40px;
+    border-radius:100px;
+    border:1px solid #FFF;
+    vertical-align:middle;
+}
+
+.list button {
+    display:block;
+    width:100%;
+    color:#fff;
+    background-color:#1A1E29;
+    height:34px;
+    font-size:1.4rem;
+    border:none;
+    outline:none;
+}
+
+.list button:hover {
+    background-color:#0A0E19;
+}
+
+.bottombar {
+    background-color:#E28413;
+    position:absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    height:150px;
+    max-width:1200px;
+    margin:0 auto;
+}
+
+.bottombar img {
+    width:260px;
+    height:150px;
+}
+
+.bottombar .bleft {
+    float:left;
+    padding:25px 15px;
+    height:100px;
+    font-size:1.4rem;
+    font-weight:bold;
+    background-color:#FFF;
+}
+
+.orange { color: #E28413; }
+
+.red { color: #C61C0D; }
+
+.bottombar .bright {
+    float:left;
+    height:150px;
+    background-color: #E28413;
+}
+
+.bright ::before {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 75px 0 75px 50px;
+    border-color: transparent transparent transparent #007bff;
+
+}
+
+.help-text {
+    font-weight:bold;
+    padding:15px;
+    padding-top:0;
+    font-size:0.8rem;
+    width:280px;
+}
+
+.bright input {
+    margin-left:25px;
+    margin-top:25px;
+    width: 150px;
+    padding-left: 10px;
+}
+
+.bright button {
+    background-color:#C61C0D;
+    outline:none;
+    border:none;
+    height:32px;
+    margin:15px;
+    margin-bottom:0;
+    color:#fff;
+    font-weight:bold;
+    font-size:1.1rem;
+    width:70px;
+}
+
+.bright button:hover {
+    background-color:#B60C00;
+}
+
+.bottombar img{
+    position:absolute;
+    right:0;
+    bottom:0;
+    padding:0;
+    margin:0;
+}
+
+.friend {
+    width:100%;
+}
+
+.friend td {
+    padding:0;
+    padding:3px 10px;
+}
+
+table {
+    border-collapse:collapse;
+    width:100%;
+}
+
+.friendlist {
+    position:absolute;
+    left:30px;
+    width:calc(100% - 60px);
+    top:140px;
+    background-color:#323642;
+}
+
+.friendlist tbody {
+    height:300px;
+    display:block;
+    overflow:auto;
+}
+
+.friend img {
+    border-radius:1000px;
+    border:1px solid #fff;
+}
+
+.friend .img {
+    text-align:right;
+}
+
+.friend:hover {
+    background-color:#000;
+    cursor:pointer;
+}
+
+
+.after {
+    background-color:#fff;
+    color:;
+    float:left;
+}
+
+.after h2 {
+    color: #E28413;
+    text-align:center;
+}
+
+.after h3 {
+    color: #1A1E29;
+    font-weight:bold;
+    font-size:1.3rem;
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.after .img {
+    text-align:center;
+    padding:20px;
+}
+
+button.fb {
+    background-color: #3b5998;
+}
+
+button.fb:hover {
+    background-color:#2b4988;
+}
+
+button.tw {
+    background-color: #11bdfe;
+}
+
+button.tw:hover {
+    background-color:#01adee;
+}
+
+
+::-webkit-scrollbar {
+    width: 11px;
+}
+ 
+::-webkit-scrollbar-track {
+    background-color:rgba(0,0,0,0.1);
+}
+ 
+::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
+
+@media (max-width: 800px) {
+
+    html, body {
+        overflow-y: auto;
+    }
+
+    /* mobile */
+    .add {
+        float:none;
+        width:calc(100% - 100px);
+    }
+
+    th, td {
+        font-size:0.8rem !important;
+    }
+
+    .list {
+        float:none;
+        width:calc(100% - 40px);
+    }
+    .bottombar {
+        position:static;
+    }
+
+    .bottombar .bleft {
+        font-size:1rem;
+        float:none;
+        width:calc(100% - 30px);
+        text-align:center;
+    }
+
+    .bottombar .bright {
+        text-align:center;
+        width:100%;
+
+    }
+
+    .bottombar .help-text {
+        width:calc(100% - 30px);
+    }
+
+    .topbar img {
+        display:none;
+    }
+
+    .bottombar img {
+        display:none;
+    }
+}
